@@ -1,0 +1,281 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+html,body
+{
+	scroll-behavior: smooth;
+}
+.main_background
+{
+	background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../img/main_background_djs_burger.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	width: 100%;
+	padding-bottom: 200px;
+}
+.nav-bg
+{
+	background-color: rgb(248,24,24);
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	border-radius: 50%;
+}
+a.navbar-brand-text
+{
+	color: #fff;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+}
+.navbar-nav .nav-item
+{
+	padding: 10px 20px;
+	transition-duration: 0.3s;
+	margin-top: 10px;
+}
+.navbar-nav .nav-item:hover
+{
+	background-color: rgb(248,24,24);
+	border-radius: 5px;
+}
+.navbar-nav .nav-item a
+{
+	text-decoration: none;
+	color: #fff;
+}
+#about_djs_burger
+{
+	margin-top: 30px;
+}
+.modal_about_djs_burger
+{
+	padding-top: 10px;
+}
+
+
+.homepage_text_content
+{
+	padding-top: 80px;
+}
+.homepage_text_content h1
+{
+	color: #fff;
+	letter-spacing: 2px;
+}
+.homepage_text_content p
+{
+	color: rgb(221,221,221);
+	font-size: 17px;
+}
+.order_now_btn
+{
+	border: none;
+	padding: 20px 30px;
+	margin-top: 10px;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	background-color: rgb(248,24,24);
+	color: #fff;
+	border-radius: 5px;
+}
+
+.circle1
+{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #959595;
+	float: left;
+
+}
+.circle2
+{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: #959595;
+	float: right;
+}
+.banner1
+{
+	background-color: #fff;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	width: 100%;
+	max-width: 400px;
+	padding: 15px;
+	margin-top: -35px;
+}
+.banner1 h4	
+{
+	color: rgb(250,22,28);
+	letter-spacing: 2px;
+	padding-top: 10px;
+}
+
+.banner2 
+{
+	margin-top: 35px;
+}
+.banner2 h4
+{
+	color: #202020;
+	letter-spacing: 1px;
+}
+.banner2 h4::after
+{
+	content: '';
+	background-color: rgb(248,24,24);
+	width: 40px;
+	height: 5px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+.banner2 img
+{
+	width: 100%;
+	max-width: 250px;
+	margin-top: 10px;
+}
+.banner2 h6
+{
+	font-size: 18px;
+	color: #fff;
+	background-color: #202020;
+	padding: 20px;
+	border-radius: 5px;
+	border-top-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+.banner2 h5
+{
+	padding-top: 5px;
+}
+
+
+.banner3
+{
+	margin-top: 35px;
+}
+.banner3 h4
+{
+	color: #202020;
+	padding-top: 35px;
+	letter-spacing: 1px;
+}
+.banner3 h4::after
+{
+	content: '';
+	background-color: rgb(248,24,24);
+	width: 40px;
+	height: 5px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+.banner3 img
+{
+	width: 100%;
+	max-width: 230px;
+}
+.banner3 h6
+{
+	font-size: 18px;
+	color: #fff;
+	background-color: #202020;
+	padding: 20px;
+	border-radius: 5px;
+	border-top-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+}
+.banner3 h5
+{
+	padding-top: 5px;
+}
+
+.banner4
+{
+	background-color: #252525;
+	box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+	padding: 15px;
+	margin-top: 40px;
+	border-top-left-radius: 150px;
+	border-bottom-right-radius: 150px;
+}	
+.banner4 h4
+{
+	font-size: 18px;
+	color: #fff;
+}
+.banner4 h4::after
+{
+	content: '';
+	background-color: rgb(248,24,24);
+	width: 40px;
+	height: 5px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+
+.banner4 img
+{
+	width: 100%;
+	max-width: 130px;
+	margin-top: 20px;
+}
+.banner4 label 
+{
+	color: #fff;
+}
+
+
+.we_offer_title
+{
+	color: #202020;
+	padding-top: 40px;
+	letter-spacing: 1px;	
+}
+.we_offer_title::after
+{
+	content: '';
+	background-color: rgb(248,24,24);
+	width: 40px;
+	height: 5px;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: block;
+	margin-top: 5px;
+}
+.djs_burgers_items
+{
+	margin-top: 20px;
+}
+
+.djs_burgers_items img
+{
+	margin-top: 30px;
+	width: 100%;
+	max-width: 100px;
+}
+
+
+footer
+{
+	background-color: #202020;
+	width: 100%;
+	height: 100px;
+	margin-top: 80px;
+}
+footer p
+{
+	color: #fff;
+	font-size: 13px;
+	padding-top: 40px;
+	letter-spacing: 2px;
+}
